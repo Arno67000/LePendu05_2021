@@ -5,11 +5,11 @@
     flex-direction: column;
     @include phone {
         width: 100%;
-        height: 50%;
+        height: 35%;
     }
     @include tablette {
         width: 100%;
-        height: 50%;
+        height: 35%;
     }
     &--word {
         font-size: 2em;

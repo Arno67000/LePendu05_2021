@@ -12,14 +12,14 @@ body {
     @include phone {
         flex-direction: column;
         align-items: center;
+        justify-content: flex-start;
         font-size: $phoneFontSize;
-        height: 60vh;
     }
     @include tablette {
         flex-direction: column;
         align-items: center;
+        justify-content: flex-start;
         font-size: $tabletteFontSize;
-        height: 60vh;
     }
 }
 h1 {
