@@ -108,12 +108,15 @@
             z-index: 2;
             @include phone {
                 border:$colour-secondary solid 4px;
-                height: 7%;
-                left: 51%;
+                height: 5%;
+                width: 3%;
+                left: 51.5%;
             }
             @include tablette {
-                border:$colour-secondary solid 8px;
-                height: 7.3%;
+                border:$colour-secondary solid 6px;
+                height: 6.5%;
+                width: 4%;
+                left: 51.3%;
             }
         }
         &--animated {
