@@ -1,0 +1,16 @@
+{
+  "name": "lependu",
+  "version": "1.0.0",
+  "description": "Pendu Minigame JS/Sass",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "sass": "sass --watch style/sass/main.scss:style/css/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arno67000",
+  "license": "ISC"
+}
