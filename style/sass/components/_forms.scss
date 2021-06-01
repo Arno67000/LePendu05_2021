@@ -30,7 +30,6 @@ input[type=button] {
         font-size: $phoneFontSize;
         margin: 0%;
         height: auto;
-        padding: 2%;
     }
     @include tablette {
         font-size: 1.1em;
@@ -56,5 +55,13 @@ input:invalid {
     @include tablette {
         margin-bottom: 0.5%;
         margin-top: 2%;
+    }
+}
+#submit {
+    @include phone {
+        display: none;
+    }
+    @include tablette {
+        display: none;
     }
 }

@@ -1,0 +1,26 @@
+#keyBoard {
+    display: none;
+    @include phone {
+        display: block;
+        padding: 6%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @include tablette {
+        display: block;
+        padding: 3%;
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+#keyBoard input[type=button] {
+    width: 23.2%;
+    margin: 1% 0 0 0;
+    padding: 1%;
+}

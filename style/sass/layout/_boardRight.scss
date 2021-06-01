@@ -6,13 +6,13 @@
     background-image: $image-whiteFilter, url(../../../assets/img/western1.jpg);
     background-size: 100% 100%;
     @include phone {
-        width: 200px;
+        width: 220px;
         height: 134px;
         margin: auto;
     }
     @include tablette {
-        width: 450px;
-        max-height: 300px;
+        width: 420px;
+        max-height: 250px;
         margin: auto;
     }
 }
