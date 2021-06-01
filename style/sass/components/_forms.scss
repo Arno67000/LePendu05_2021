@@ -21,7 +21,7 @@ input[type=button] {
     height: 4em;
     width: auto;
     border-radius: 20px;
-    padding: 5%;
+    padding: 2%;
     font-size: 0.9em;
     background-color: $colour-primary;
     border: $border-colour 2px solid;
@@ -33,8 +33,8 @@ input[type=button] {
         padding: 2%;
     }
     @include tablette {
-        font-size: $tabletteFontSize;
-        padding: 2%;
+        font-size: 1.1em;
+        padding: 1%;
         height: auto;
         margin: 0%;
     }
@@ -50,12 +50,10 @@ input:invalid {
     justify-content: space-between;
     margin-top: 5%;
     @include phone {
-        justify-content: space-evenly;
         margin-bottom: 0.5%;
         margin-top: 2%;
     }
     @include tablette {
-        justify-content: space-evenly;
         margin-bottom: 0.5%;
         margin-top: 2%;
     }

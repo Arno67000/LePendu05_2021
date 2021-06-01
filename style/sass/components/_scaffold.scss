@@ -108,8 +108,8 @@
             z-index: 2;
             @include phone {
                 border:$colour-secondary solid 4px;
-                height: 5%;
-                width: 3%;
+                height: 4%;
+                width: 2.8%;
                 left: 51.5%;
             }
             @include tablette {
