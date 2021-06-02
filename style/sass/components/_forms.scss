@@ -33,6 +33,7 @@ input[type=button] {
         font-size: $phoneFontSize;
         margin: 0%;
         height: auto;
+        padding: 1%;
     }
     @include tablette {
         font-size: 1.1em;
