@@ -35,6 +35,9 @@
         @include verticalDesk {
             margin: 2% 0 2% 0;
         }
+        @media(min-width: map-get($map: $breakpoints, $key: "desktop-min")) and (max-width: 1260px) and (max-height: map-get($map: $breakpoints, $key: "desktop-median")) {
+            font-size: 1.8em;
+        }
     }
     &--alreadyUsed {
         text-shadow: $textShadow;

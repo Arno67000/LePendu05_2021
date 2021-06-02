@@ -26,6 +26,9 @@ input[type=button] {
     background-color: $colour-primary;
     border: $border-colour 2px solid;
     font-weight: bold;
+    @media(min-width: map-get($map: $breakpoints, $key: "desktop-min")) and (max-width: 1340px) and (max-height: map-get($map: $breakpoints, $key: "desktop-median")) {
+        font-size: 0.7em;
+    }
     @include phone {
         font-size: $phoneFontSize;
         margin: 0%;
