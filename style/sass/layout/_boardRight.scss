@@ -21,6 +21,12 @@
         height: 500px;
         max-width: 900px;
     }
+    @include mdpi {
+        width: 576px;
+        max-height: 350px;
+        margin: auto;
+        margin-top: 3%;
+    }
 }
 
 

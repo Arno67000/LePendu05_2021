@@ -21,6 +21,10 @@ body {
         flex-direction: column;
         font-size: $vDeskFontSize;
     }
+    @include mdpi {
+        display: block;
+        font-size: $tabletteFontSize;
+    }
 }
 h1 {
     text-transform: uppercase;
@@ -38,6 +42,11 @@ h1 {
         text-align: center;
     }
     @include verticalDesk {
+        text-align: center;
+    }
+    @include mdpi {
+        font-size: 1.9em;
+        margin: 1% 0 0 0;
         text-align: center;
     }
 }

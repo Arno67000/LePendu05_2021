@@ -118,6 +118,12 @@
                 width: 4%;
                 left: 51.3%;
             }
+            @include mdpi {
+                border:$colour-secondary solid 7px;
+                height: 7%;
+                width: 4.5%;
+                left: 51.3%;
+            }
         }
         &--animated {
             @include scaffPartFadeIn;

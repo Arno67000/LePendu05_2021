@@ -46,3 +46,8 @@
         @content;
     }
 }
+@mixin mdpi {
+    @media(min-width: map-get($map: $breakpoints, $key: "desktop-min")) and (max-width: map-get($map: $breakpoints, $key: "mdpi-max")) {
+        @content;
+    }
+}

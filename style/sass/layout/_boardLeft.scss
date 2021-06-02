@@ -15,6 +15,10 @@
         width: 100%;
         height: 500px;
     }
+    @include mdpi {
+        width: 100%;
+        max-height: 350px;
+    }
     &--word {
         font-size: 2em;
         align-self: center;  
@@ -37,6 +41,11 @@
         }
         @media(min-width: map-get($map: $breakpoints, $key: "desktop-min")) and (max-width: 1260px) and (max-height: map-get($map: $breakpoints, $key: "desktop-median")) {
             font-size: 1.8em;
+        }
+        @include mdpi {
+            font-size: 1.8em;
+            letter-spacing: 0.5em;
+            margin: 2% 0 2% 0;
         }
     }
     &--alreadyUsed {
