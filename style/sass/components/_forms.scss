@@ -37,6 +37,9 @@ input[type=button] {
         height: auto;
         margin: 0%;
     }
+    @include verticalDesk {
+        height: auto;
+    }
 }
 input[type=button]:hover {
     cursor: pointer;

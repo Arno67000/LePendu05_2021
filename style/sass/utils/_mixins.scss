@@ -41,3 +41,8 @@
     }
     
 }
+@mixin verticalDesk {
+    @media(min-width: map-get($map: $breakpoints, $key: "desktop-min")) and (max-width: map-get($map: $breakpoints, $key: "desktop-median")) and (min-height: map-get($map: $breakpoints, $key: "desktop-median")) {
+        @content;
+    }
+}

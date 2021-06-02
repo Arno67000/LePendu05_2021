@@ -17,6 +17,10 @@ body {
         display: block;
         font-size: $tabletteFontSize;
     }
+    @include verticalDesk {
+        flex-direction: column;
+        font-size: $vDeskFontSize;
+    }
 }
 h1 {
     text-transform: uppercase;
@@ -24,13 +28,16 @@ h1 {
     letter-spacing: 5px;
     font-size: 2.6em;
     @include phone {
-        font-size: 1.6em;
+        font-size: 1.5em;
         margin: 1% 0 0 0;
         text-align: center;
     }
     @include tablette {
-        font-size: 2em;
+        font-size: 1.9em;
         margin: 1% 0 0 0;
+        text-align: center;
+    }
+    @include verticalDesk {
         text-align: center;
     }
 }
